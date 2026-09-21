@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+       viewBox="0 0 960 540" width="960" height="540"
+       preserveAspectRatio="xMidYMid meet"
+       role="img" aria-labelledby="title desc">
+    <style>
+      svg {
+        width: 100vw;
+        height: auto;
+        max-width: 100vw;
+        background: #6ec4ea;
+      }
+      @supports (width: min(1px, 2px)) {
+        svg {
+          width: min(100vw, calc(100vh * 16 / 9));
+          width: min(100vw, calc(100dvh * 16 / 9));
+        }
+      }
+    </style>
+    
+    <title id="title">鹈鹕骑自行车</title>
+    <desc id="desc">一只白鹈鹕在海边公路上踩着自行车向前骑。长喙、喉囊、黑翼尖和蹼足随踏板一起动，车轮与路面同步滚动。</desc>
+
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#6ec4ea"/>
+        <stop offset="0.48" stop-color="#b7e4f7"/>
+        <stop offset="1" stop-color="#e7f6fb"/>
+      </linearGradient>
+      <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#7fd0e6"/>
+        <stop offset="0.45" stop-color="#2f95c4"/>
+        <stop offset="1" stop-color="#1c6f99"/>
+      </linearGradient>
+      <linearGradient id="asphalt" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5b6670"/>
+        <stop offset="1" stop-color="#3a434b"/>
+      </linearGradient>
+      <linearGradient id="feather" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#fffdf8"/>
+        <stop offset="0.72" stop-color="#fff8ef"/>
+        <stop offset="1" stop-color="#f1e4d2"/>
+      </linearGradient>
+      <linearGradient id="bill" x1="0" y1="0" x2="1" y2="0.2">
+        <stop offset="0" stop-color="#f8c85a"/>
+        <stop offset="0.7" stop-color="#f0a72e"/>
+        <stop offset="1" stop-color="#e08a1c"/>
+      </linearGradient>
+      <radialGradient id="pouch" cx="42%" cy="28%" r="75%">
+        <stop offset="0" stop-color="#f8c7bc"/>
+        <stop offset="0.55" stop-color="#f0a094"/>
+        <stop offset="1" stop-color="#e07c78"/>
+      </radialGradient>
+      <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#ffe7a8" stop-opacity="0.95"/>
+        <stop offset="0.45" stop-color="#ffd56a" stop-opacity="0.28"/>
+        <stop offset="1" stop-color="#ffd56a" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#1b242c" stop-opacity="0.26"/>
+        <stop offset="0.7" stop-color="#1b242c" stop-opacity="0.08"/>
+        <stop offset="1" stop-color="#1b242c" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#e7f6fb" stop-opacity="0"/>
+        <stop offset="1" stop-color="#f4fbfe" stop-opacity="0.72"/>
+      </linearGradient>
+      <g id="spokes">
+        <g stroke="#d5dee6" stroke-width="2" stroke-linecap="round">
+          <line x1="0" y1="-47" x2="0" y2="47"/>
+          <line x1="-47" y1="0" x2="47" y2="0"/>
+          <line x1="-33.2" y1="-33.2" x2="33.2" y2="33.2"/>
+          <line x1="-33.2" y1="33.2" x2="33.2" y2="-33.2"/>
+        </g>
+        <circle r="7.5" fill="#9aa7b2"/>
+        <circle r="3.2" fill="#243039"/>
+        <circle cx="0" cy="-34" r="4.2" fill="#e4533d"/>
+        <circle cx="0" cy="-34" r="1.7" fill="#ffd4cc"/>
+      </g>
+
+      <g id="tuft">
+        <path d="M0 0 C-2 -18 -7 -20 -4 -1" fill="#6f9a45"/>
+        <path d="M1 0 C2 -22 8 -24 5 -1" fill="#8fb456"/>
+        <path d="M2 0 C7 -15 12 -13 7 -1" fill="#5e8a3c"/>
+      </g>
+
+      <g id="flower">
+        <path d="M0 2 C-1 -16 1 -16 0 2" stroke="#5e8a3c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <circle cy="-18" r="3.3" fill="#f2d15a"/>
+        <circle cy="-18" r="1.3" fill="#e0892a"/>
+      </g>
+
+      <g id="ground-strip">
+        <rect x="16" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="83" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="150" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="217" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="284" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="351" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="418" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="485" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="552" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="619" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="686" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="753" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="820" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="887" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="954" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="1021" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="1088" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <rect x="1155" y="468" width="34" height="8" rx="4" fill="#f6e3a6"/>
+        <use href="#tuft" xlink:href="#tuft" x="48" y="424"/>
+        <use href="#tuft" xlink:href="#tuft" x="136" y="426"/>
+        <use href="#tuft" xlink:href="#tuft" x="248" y="423"/>
+        <use href="#tuft" xlink:href="#tuft" x="332" y="425"/>
+        <use href="#tuft" xlink:href="#tuft" x="430" y="424"/>
+        <use href="#tuft" xlink:href="#tuft" x="524" y="426"/>
+        <use href="#tuft" xlink:href="#tuft" x="608" y="423"/>
+        <use href="#tuft" xlink:href="#tuft" x="724" y="425"/>
+        <use href="#tuft" xlink:href="#tuft" x="812" y="424"/>
+        <use href="#tuft" xlink:href="#tuft" x="910" y="426"/>
+        <use href="#tuft" xlink:href="#tuft" x="1012" y="423"/>
+        <use href="#tuft" xlink:href="#tuft" x="1118" y="425"/>
+        <use href="#flower" xlink:href="#flower" x="188" y="422"/>
+        <use href="#flower" xlink:href="#flower" x="676" y="421"/>
+        <use href="#flower" xlink:href="#flower" x="1048" y="422"/>
+        <ellipse cx="96" cy="492" rx="5" ry="2.4" fill="#68727b"/>
+        <ellipse cx="274" cy="508" rx="3.5" ry="1.8" fill="#727c84"/>
+        <ellipse cx="455" cy="496" rx="4.2" ry="2" fill="#5e686f"/>
+        <ellipse cx="742" cy="514" rx="5.5" ry="2.3" fill="#6a747c"/>
+        <ellipse cx="918" cy="490" rx="3.2" ry="1.7" fill="#727c84"/>
+        <ellipse cx="1104" cy="506" rx="4.6" ry="2.1" fill="#626c74"/>
+      </g>
+
+      <g id="drift">
+        <g fill="#ffffff">
+          <ellipse cx="130" cy="78" rx="48" ry="20"/>
+          <ellipse cx="168" cy="70" rx="34" ry="18"/>
+          <ellipse cx="98" cy="84" rx="28" ry="14"/>
+          <ellipse cx="430" cy="58" rx="56" ry="22"/>
+          <ellipse cx="478" cy="50" rx="32" ry="16"/>
+          <ellipse cx="392" cy="64" rx="30" ry="15"/>
+          <ellipse cx="720" cy="96" rx="42" ry="16"/>
+          <ellipse cx="754" cy="88" rx="26" ry="14"/>
+        </g>
+        <g fill="none" stroke="#5c6c76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M250 124 l12 7 l12 -7"/>
+          <path d="M548 46 l10 6 l10 -6"/>
+          <path d="M820 130 l9 5 l9 -5"/>
+        </g>
+        <g transform="translate(210,334)">
+          <path d="M0 16 L34 16 L26 12 L8 12 Z" fill="#fffaf3"/>
+          <path d="M16 12 L16 -18 L32 10 Z" fill="#ffffff"/>
+          <path d="M16 10 L16 -8 L6 10 Z" fill="#d5e4ea"/>
+          <path d="M16 -18 L16 12" stroke="#8aa0ab" stroke-width="1.4"/>
+        </g>
+      </g>
+    </defs>
+
+    <rect width="960" height="540" fill="url(#sky)"/>
+
+    <g transform="translate(868,74)">
+      <circle r="74" fill="url(#sunGlow)"/>
+      <g fill="#ffd56a" opacity="0.72">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(0)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(30)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(60)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(90)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(120)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(150)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(180)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(210)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(240)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(270)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(300)"/>
+        <rect x="44" y="-3.2" width="24" height="6.4" rx="3.2" transform="rotate(330)"/>
+      </g>
+      <circle r="30" fill="#ffcf70"/>
+      <circle r="21" fill="#ffe6a8"/>
+      <circle cx="-8" cy="-8" r="6" fill="#fff6d8" opacity="0.85"/>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-960 0" dur="46s" repeatCount="indefinite"/>
+      <use href="#drift" xlink:href="#drift"/>
+      <use href="#drift" xlink:href="#drift" x="960"/>
+    </g>
+
+    <path d="M0 348 C120 328 180 360 300 342 C430 322 520 358 660 336 C780 320 860 352 960 332 L960 392 L0 392 Z" fill="url(#sea)"/>
+    <path d="M0 366 C160 352 240 378 400 362 C560 346 700 376 960 356 L960 396 L0 396 Z" fill="#1d6e96" opacity="0.55"/>
+
+    <g opacity="0.55" fill="#e9f8ff">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-480 0" dur="8s" repeatCount="indefinite"/>
+      <ellipse cx="70" cy="358" rx="46" ry="5"/>
+      <ellipse cx="210" cy="372" rx="64" ry="4.5"/>
+      <ellipse cx="360" cy="354" rx="40" ry="4"/>
+      <ellipse cx="520" cy="370" rx="72" ry="5"/>
+      <ellipse cx="70" cy="358" rx="46" ry="5" transform="translate(480 0)"/>
+      <ellipse cx="210" cy="372" rx="64" ry="4.5" transform="translate(480 0)"/>
+      <ellipse cx="360" cy="354" rx="40" ry="4" transform="translate(480 0)"/>
+      <ellipse cx="520" cy="370" rx="72" ry="5" transform="translate(480 0)"/>
+      <ellipse cx="70" cy="358" rx="46" ry="5" transform="translate(960 0)"/>
+      <ellipse cx="210" cy="372" rx="64" ry="4.5" transform="translate(960 0)"/>
+    </g>
+
+    <rect x="0" y="312" width="960" height="48" fill="url(#haze)"/>
+
+    <g transform="translate(118,318)">
+      <path d="M-18 78 H18 L11 70 H-11 Z" fill="#6d5846"/>
+      <rect x="-6" y="18" width="12" height="54" fill="#f7f4ee"/>
+      <rect x="-6" y="30" width="12" height="7" fill="#e15a3a"/>
+      <rect x="-6" y="46" width="12" height="7" fill="#e15a3a"/>
+      <path d="M-11 18 H11 L6 8 H-6 Z" fill="#3c4852"/>
+      <rect x="-4" y="9" width="8" height="8" fill="#f6e27a"/>
+      <path d="M-2 13 H2 L8 22 H-8 Z" fill="#f6e27a" opacity="0.35"/>
+    </g>
+
+    <path d="M0 392 C70 372 130 386 210 374 C290 362 340 388 430 376 C530 362 600 386 700 372 C790 360 860 382 960 368 L960 432 L0 432 Z" fill="#c6db8e"/>
+    <path d="M0 408 C140 396 220 418 380 404 C540 390 680 416 840 402 C900 396 930 404 960 398 L960 432 L0 432 Z" fill="#aecd72"/>
+    <rect x="0" y="422" width="960" height="10" fill="#e4d2a4"/>
+    <rect x="0" y="430" width="960" height="110" fill="url(#asphalt)"/>
+    <line x1="0" y1="436" x2="960" y2="436" stroke="#efe8d8" stroke-width="3"/>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1206 0" dur="3.6s" repeatCount="indefinite"/>
+      <use href="#ground-strip" xlink:href="#ground-strip"/>
+      <use href="#ground-strip" xlink:href="#ground-strip" x="1206"/>
+    </g>
+
+    <ellipse cx="478" cy="434" rx="176" ry="16" fill="url(#shadow)">
+      <animate attributeName="rx" values="176;162;176;168;176" keyTimes="0;0.25;0.5;0.75;1" dur="1.2s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- 后轮。外缘半径 64，接地点 y=430，与路面向左滚动 1206px/3.6s 对齐 -->
+    <g transform="translate(342,366)">
+      <circle r="58" fill="none" stroke="#1c242b" stroke-width="12"/>
+      <circle r="50" fill="none" stroke="#e7eef3" stroke-width="4.5"/>
+      <path d="M-28 -46 A58 58 0 0 1 36 -44" fill="none" stroke="#66727c" stroke-width="2" opacity="0.55"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/>
+        <use href="#spokes" xlink:href="#spokes"/>
+        <circle r="58" fill="none" stroke="#3e484f" stroke-width="3" stroke-dasharray="9 13" opacity="0.45"/>
+        <g stroke="#243039" stroke-width="2.4" stroke-linecap="round">
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(0)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(45)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(90)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(135)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(180)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(225)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(270)"/>
+          <line x1="0" y1="8" x2="0" y2="12" transform="rotate(315)"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- 远侧腿：曲柄相位差 180 度 -->
+    <g transform="translate(398,246)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="25.68 0 0; 15.12 0 0; 3.68 0 0; -3.41 0 0; -2.57 0 0; 4.98 0 0; 16.15 0 0; 27.73 0 0; 36.25 0 0; 39.42 0 0; 38.00 0 0; 33.32 0 0; 25.68 0 0"
+          keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+          dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="0" y1="0" x2="82" y2="0" stroke="#c45e28" stroke-width="7.5" stroke-linecap="round"/>
+        <g transform="translate(82,0)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate"
+              values="98.58 0 0; 110.24 0 0; 114.50 0 0; 109.68 0 0; 97.66 0 0; 81.87 0 0; 65.56 0 0; 52.37 0 0; 47.22 0 0; 53.04 0 0; 66.56 0 0; 82.93 0 0; 98.58 0 0"
+              keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+              dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+            <line x1="0" y1="0" x2="78" y2="0" stroke="#c45e28" stroke-width="6" stroke-linecap="round"/>
+            <circle r="5.2" fill="#e08948"/>
+            <g transform="translate(78,0)">
+              <g>
+                <animateTransform attributeName="transform" type="rotate"
+                  values="-114.25 0 0; -115.36 0 0; -108.18 0 0; -96.27 0 0; -85.09 0 0; -76.85 0 0; -71.72 0 0; -70.11 0 0; -73.47 0 0; -82.46 0 0; -94.56 0 0; -106.25 0 0; -114.25 0 0"
+                  keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+                  dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+                <path d="M-4 0 L-2 7 L36 8 L40 3 L34 -1 L6 -2 Z" fill="#d36a30"/>
+                <path d="M32 8 L36 13 L30 8 Z M22 8 L24 14 L18 8 Z M14 7 L13 13 L10 7 Z" fill="#a84e1e"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 远侧踏板，绕中轴转到曲柄后方，踏板面保持水平 -->
+    <g transform="translate(458,346)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="1.2s" repeatCount="indefinite"/>
+        <g transform="translate(30,0)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="1.2s" repeatCount="indefinite"/>
+            <rect x="-13" y="-6" width="26" height="12" rx="2.5" fill="#e2b43f" stroke="#2c3338" stroke-width="1.4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g fill="none" stroke="#0e7c86" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M342 366 L458 346"/>
+      <path d="M342 366 L405 250"/>
+      <path d="M405 250 L458 346"/>
+      <path d="M405 250 L562 246"/>
+      <path d="M562 246 L458 346"/>
+    </g>
+    <path d="M562 246 L578 300" fill="none" stroke="#0a5c64" stroke-width="11" stroke-linecap="round"/>
+    <path d="M578 300 L610 366" fill="none" stroke="#0e7c86" stroke-width="7" stroke-linecap="round"/>
+
+    <g fill="none" stroke="#243039" stroke-width="3" stroke-linecap="round">
+      <path d="M352 356 L446 332" stroke-dasharray="4 3">
+        <animate attributeName="stroke-dashoffset" from="0" to="14" dur="0.28s" repeatCount="indefinite"/>
+      </path>
+      <path d="M352 376 L446 360" stroke-dasharray="4 3">
+        <animate attributeName="stroke-dashoffset" from="0" to="14" dur="0.28s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g transform="translate(458,346)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/>
+        <circle r="16" fill="none" stroke="#243039" stroke-width="5"/>
+        <g stroke="#243039" stroke-width="3" stroke-linecap="round">
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(0)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(45)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(90)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(135)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(180)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(225)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(270)"/>
+          <line x1="0" y1="-16" x2="0" y2="-21" transform="rotate(315)"/>
+        </g>
+        <line x1="-30" y1="0" x2="30" y2="0" stroke="#2c3338" stroke-width="5.5" stroke-linecap="round"/>
+        <circle r="5" fill="#2c3338"/>
+      </g>
+    </g>
+
+    <circle cx="405" cy="250" r="5" fill="#083f45"/>
+    <circle cx="562" cy="246" r="5.5" fill="#083f45"/>
+    <circle cx="370" cy="310" r="4" fill="#e15a3a"/>
+
+    <path d="M368 256 C392 240 436 236 468 252 C442 262 396 266 370 258 Z" fill="#6b3a28"/>
+    <path d="M386 250 C412 244 440 246 456 254" fill="none" stroke="#8d5340" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 近侧踏板 -->
+    <g transform="translate(458,346)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/>
+        <g transform="translate(30,0)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="1.2s" repeatCount="indefinite"/>
+            <rect x="-13" y="-6" width="26" height="12" rx="2.5" fill="#f2c14e" stroke="#2c3338" stroke-width="1.5"/>
+            <rect x="-8" y="-2" width="16" height="2" rx="1" fill="#fff1b8" opacity="0.7"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 近侧腿，脚踝锁在曲柄端点上 -->
+    <g transform="translate(398,246)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="16.15 0 0; 27.73 0 0; 36.25 0 0; 39.42 0 0; 38.00 0 0; 33.32 0 0; 25.68 0 0; 15.12 0 0; 3.68 0 0; -3.41 0 0; -2.57 0 0; 4.98 0 0; 16.15 0 0"
+          keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+          dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+        <line x1="0" y1="0" x2="82" y2="0" stroke="#ef7d34" stroke-width="8.5" stroke-linecap="round"/>
+        <g transform="translate(82,0)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate"
+              values="65.56 0 0; 52.37 0 0; 47.22 0 0; 53.04 0 0; 66.56 0 0; 82.93 0 0; 98.58 0 0; 110.24 0 0; 114.50 0 0; 109.68 0 0; 97.66 0 0; 81.87 0 0; 65.56 0 0"
+              keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+              dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+            <line x1="0" y1="0" x2="78" y2="0" stroke="#ef7d34" stroke-width="6.5" stroke-linecap="round"/>
+            <circle r="6" fill="#f4a15a"/>
+            <circle r="2.4" fill="#ffd7b0"/>
+            <g transform="translate(78,0)">
+              <g>
+                <animateTransform attributeName="transform" type="rotate"
+                  values="-71.72 0 0; -70.11 0 0; -73.47 0 0; -82.46 0 0; -94.56 0 0; -106.25 0 0; -114.25 0 0; -115.36 0 0; -108.18 0 0; -96.27 0 0; -85.09 0 0; -76.85 0 0; -71.72 0 0"
+                  keyTimes="0;0.083333;0.166667;0.25;0.333333;0.416667;0.5;0.583333;0.666667;0.75;0.833333;0.916667;1"
+                  dur="1.2s" repeatCount="indefinite" calcMode="linear"/>
+                <path d="M-6 0 L-3 8 L38 9 L44 4 L36 -2 L8 -3 Z" fill="#f08a3c" stroke="#c86422" stroke-width="1"/>
+                <path d="M34 8 L40 15 L32 9 Z M24 9 L26 16 L20 9 Z M15 8 L14 15 L11 8 Z" fill="#c86422"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -3; 0 0; 0 -2; 0 0"
+        keyTimes="0;0.25;0.5;0.75;1"
+        keySplines="0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1; 0.45 0 0.55 1"
+        calcMode="spline" dur="1.2s" repeatCount="indefinite"/>
+
+      <!-- 平衡用的后翼 -->
+      <g transform="translate(328,176)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate"
+            values="10 0 0; -14 0 0; 10 0 0"
+            keyTimes="0;0.58;1"
+            keySplines="0.4 0 0.2 1; 0.2 0 0.6 1"
+            calcMode="spline" dur="1.55s" repeatCount="indefinite"/>
+          <path d="M6 12 C-8 -16 -46 -78 -118 -52 C-78 -28 -24 2 8 18 Z" fill="url(#feather)" stroke="#eadfce" stroke-width="1"/>
+          <path d="M-62 -30 C-108 -72 -156 -58 -158 -24 C-120 -40 -84 -16 -60 -12 Z" fill="#242a31"/>
+          <path d="M-70 -8 C-112 -28 -150 -6 -146 10 C-112 -4 -86 8 -66 10 Z" fill="#3a424c"/>
+          <path d="M-78 -36 C-96 -18 -88 -8 -70 -16" fill="none" stroke="#1b2026" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M-24 -28 C-10 -8 4 4 10 8" fill="none" stroke="#e4d8c6" stroke-width="1.5" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <g transform="translate(292,204)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-4 0 0; 6 0 0; -4 0 0" dur="1.2s" repeatCount="indefinite"/>
+          <path d="M8 0 C-22 6 -46 2 -62 16 C-36 12 -12 16 6 8 Z" fill="#fffaf3"/>
+          <path d="M6 8 C-24 18 -48 24 -60 36 C-32 24 -8 22 4 14 Z" fill="#f3ece1"/>
+          <path d="M10 -4 C-16 -12 -40 -4 -52 8 C-30 0 -8 2 8 6 Z" fill="#fffdf8"/>
+        </g>
+      </g>
+
+      <path d="M292 206 C260 184 274 140 332 130 C390 118 442 140 456 178 C466 206 448 236 410 250 C360 268 316 252 300 228 C288 214 286 214 292 206 Z" fill="url(#feather)"/>
+      <ellipse cx="424" cy="196" rx="40" ry="34" fill="#fffdf8"/>
+      <ellipse cx="400" cy="228" rx="46" ry="16" fill="#f3e6d4"/>
+      <ellipse cx="404" cy="250" rx="34" ry="15" fill="#f6efe4"/>
+      <g fill="none" stroke="#e7dccb" stroke-width="1.5" stroke-linecap="round" opacity="0.9">
+        <path d="M324 176 C360 166 398 172 430 162"/>
+        <path d="M318 196 C360 188 400 194 432 184"/>
+        <path d="M322 214 C358 210 392 216 424 206"/>
+      </g>
+
+      <!-- 前翼搭在车把上 -->
+      <g transform="translate(392,188)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="1.6 0 0; -1.6 0 0; 1.6 0 0" dur="1.2s" repeatCount="indefinite"/>
+          <path d="M4 8 C52 24 128 38 214 42 C206 24 150 14 86 2 C48 -8 18 -2 4 8 Z" fill="url(#feather)" stroke="#eadfce" stroke-width="1"/>
+          <path d="M168 16 C202 30 224 42 214 26 C196 16 176 8 168 16 Z" fill="#242a31"/>
+          <path d="M150 22 C176 34 196 38 188 24" fill="none" stroke="#3a424c" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M48 18 C78 34 96 30 92 18" fill="none" stroke="#e4d8c6" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M96 16 C124 32 142 28 136 16" fill="none" stroke="#e4d8c6" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M198 30 C214 26 226 34 216 44 C206 36 196 34 198 30 Z" fill="#fffdf8" stroke="#eadfce" stroke-width="1"/>
+        </g>
+      </g>
+
+      <!-- 颈、头、长喙和喉囊 -->
+      <g transform="translate(424,176)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-2 0 0; 2.4 0 0; -2 0 0" dur="2.4s" repeatCount="indefinite"/>
+          <path d="M-10 16 C6 -10 34 -48 64 -66 C82 -54 74 -30 48 -16 C26 0 4 10 2 20 Z" fill="url(#feather)"/>
+
+          <g transform="translate(156,-46)">
+            <g>
+              <animateTransform attributeName="transform" type="scale"
+                values="1 1; 1.03 1.12; 0.98 0.92; 1 1"
+                keyTimes="0;0.34;0.67;1" dur="1.2s" repeatCount="indefinite"/>
+              <path d="M-58 2 C-20 8 20 36 62 28 C96 18 118 6 112 -2 C70 6 10 8 -36 0 C-52 -2 -62 -2 -58 2 Z" fill="url(#pouch)"/>
+              <path d="M-20 8 C20 22 62 24 96 10" fill="none" stroke="#d56e70" stroke-width="1.4" opacity="0.7" stroke-linecap="round"/>
+            </g>
+          </g>
+
+          <ellipse cx="86" cy="-70" rx="34" ry="26" fill="url(#feather)"/>
+          <path d="M58 -78 C44 -96 28 -88 40 -70" fill="#f4ecdf"/>
+          <path d="M62 -74 C46 -98 24 -84 42 -66" fill="#fffdf8"/>
+          <path d="M54 -86 C40 -102 22 -90 36 -74" fill="#f7f1e6"/>
+
+          <path d="M112 -62 C170 -58 230 -50 286 -46 C250 -38 180 -40 114 -50 Z" fill="#f2b8a4"/>
+          <path d="M116 -66 C176 -74 236 -66 292 -52 C248 -48 186 -54 120 -56 Z" fill="url(#bill)"/>
+          <path d="M124 -64 C176 -70 230 -64 280 -54" fill="none" stroke="#d99220" stroke-width="2" stroke-linecap="round"/>
+          <path d="M118 -54 C180 -46 236 -42 284 -46" fill="none" stroke="#c9842a" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M132 -60 C142 -64 150 -58 146 -56" fill="none" stroke="#c9842a" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M268 -54 C286 -50 294 -40 278 -38 C264 -40 258 -50 268 -54 Z" fill="#e07a22"/>
+
+          <ellipse cx="104" cy="-78" rx="9" ry="8" fill="#f3d36b"/>
+          <circle cx="106" cy="-78" r="4.5" fill="#1c1917"/>
+          <circle cx="107.6" cy="-79.4" r="1.5" fill="#ffffff"/>
+          <ellipse cx="106" cy="-78" rx="5.2" ry="0" fill="#fffdf8">
+            <animate attributeName="ry" values="0;0;5.2;0;0" keyTimes="0;0.88;0.92;0.96;1" dur="4.2s" repeatCount="indefinite"/>
+          </ellipse>
+        </g>
+      </g>
+    </g>
+
+    <!-- 前轮 -->
+    <g transform="translate(610,366)">
+      <circle r="58" fill="none" stroke="#1c242b" stroke-width="12"/>
+      <circle r="50" fill="none" stroke="#e7eef3" stroke-width="4.5"/>
+      <path d="M-28 -46 A58 58 0 0 1 36 -44" fill="none" stroke="#66727c" stroke-width="2" opacity="0.55"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/>
+        <use href="#spokes" xlink:href="#spokes"/>
+        <circle r="58" fill="none" stroke="#3e484f" stroke-width="3" stroke-dasharray="9 13" opacity="0.45"/>
+      </g>
+    </g>
+    <circle cx="596" cy="318" r="5" fill="#f6e27a" stroke="#243038" stroke-width="1.5"/>
+
+    <!-- 车把压在翼尖上 -->
+    <path d="M562 246 C574 220 596 204 618 214" fill="none" stroke="#243038" stroke-width="7" stroke-linecap="round"/>
+    <path d="M600 206 C628 192 652 206 640 230" fill="none" stroke="#243038" stroke-width="8" stroke-linecap="round"/>
+    <path d="M612 200 C634 190 656 206 644 230" fill="none" stroke="#1f2428" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="598" cy="198" r="7" fill="#f4d35e" stroke="#243038" stroke-width="1.6"/>
+    <circle cx="596" cy="196" r="2" fill="#fff6d0"/>
+    <path d="M608 210 C590 230 572 236 560 250" fill="none" stroke="#8d97a0" stroke-width="1.3" stroke-linecap="round"/>
+  </svg>
